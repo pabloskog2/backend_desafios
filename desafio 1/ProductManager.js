@@ -7,8 +7,8 @@ class ProductManager {
     return this.products;
   }
 
-  addProduct(products, codeProduct) {
-    let equalCodeProduct = this.products.find((e) => e.code === codeProduct);
+  addProduct(products, product) {
+    const equalCodeProduct = this.products.some((e) => e.code === product);
     if (!equalCodeProduct) {
       if (this.products.length === 0) {
         products.id = 1;
