@@ -1,0 +1,20 @@
+[
+  {
+    "title": "producto_1",
+    "description": "Espinosa",
+    "price": 26,
+    "thumbnail": "Backend",
+    "code": "Backend",
+    "stock": "Backend",
+    "id": 1
+  },
+  {
+    "title": "producto_2",
+    "description": "Espinosa",
+    "price": 26,
+    "thumbnail": "Backend",
+    "code": "Backend",
+    "stock": "Backend",
+    "id": 2
+  }
+]

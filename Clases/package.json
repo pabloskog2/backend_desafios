@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "ejemploclase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2_archivosSync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloskog2/backend_desafios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloskog2/backend_desafios/issues"
+  },
+  "homepage": "https://github.com/pabloskog2/backend_desafios#readme"
+}

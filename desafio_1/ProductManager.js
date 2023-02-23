@@ -8,17 +8,13 @@ class ProductManager {
   }
 
   addProduct(products, product) {
-    const equalCodeProduct = this.products.some((e) => e.code === product);
-    if (!equalCodeProduct) {
-      if (this.products.length === 0) {
-        products.id = 1;
-      } else {
-        products.id = this.products[this.products.length - 1].id + 1;
-      }
-      this.products.push(products);
+    
+    if (this.products.length === 0) {
+      products.id = 1;
     } else {
-      return console.log("codigo repetido");
+      products.id = this.products[this.products.length - 1].id + 1;
     }
+    this.products.push(products);
   }
 
   getProductById(id) {
@@ -78,7 +74,7 @@ myProducts.addProduct(
     "Este es un producto prueba",
     200,
     "Sin imagen",
-    "abc1234",
+    "abc12345",
     25
   )
 );
